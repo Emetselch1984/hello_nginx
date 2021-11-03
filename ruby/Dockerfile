@@ -18,7 +18,7 @@ COPY Gemfile /app/Gemfile
 COPY Gemfile.lock /app/Gemfile.lock
 RUN bundle install
 #RUN gem install bundler
-COPY ./note-wrapper/ /app
+COPY ./hello_nginx/ /app
 
 
 

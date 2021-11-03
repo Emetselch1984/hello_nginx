@@ -16,7 +16,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./note-wrapper:/app
+      - ./hello_nginx:/app
       - bundle_data:/usr/local/bundle
   mysql:
     build:
